@@ -1,0 +1,63 @@
+ol.week-grid li:nth-child(4) {
+    background-color: #55f;
+}
+
+ol {
+    color: black;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-left: 0;
+    font-size: calc(16px + (21 - 16) * ((100vw - 300px) / (1600 - 300)));
+}
+
+ul.weekdays {
+    margin-bottom: 1em;
+}
+
+ul.weekdays li {
+    height: 4vw;
+}
+
+ol.week-grid li {
+    background-color: #eaeaea;
+    border: 1px solid #eaeaea;
+    height: 12vw;
+    max-height: 125px;
+}
+
+ul.weekdays abbr[title] {
+    border: none;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.hour-grid {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: .25rem;
+    margin-top: 0.25rem;
+
+    div {
+        background-color: #eaeaea;
+
+        p {
+            font-size: 1rem;
+            color: #000;
+            text-align: start;
+            padding-left: 0.5rem;
+        }
+    }
+
+    .unavailable {
+        background-color: #888;
+
+        p {
+            text-decoration: line-through;
+        }
+    }
+}
