@@ -1,7 +1,7 @@
-import React from 'react';
-import './App.css';
+import React, { ReactElement } from 'react';
+import './App.scss';
 
-function App() {
+function App(): ReactElement {
     return (
         <div className="App">
             <header className="App-header">
