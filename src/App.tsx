@@ -1,6 +1,5 @@
 import React, { ReactElement, useState } from 'react';
 import './App.scss';
-import scenario1 from "./scenario1/Scenario1";
 import Scenario1 from "./scenario1/Scenario1";
 import Scenario2 from "./scenario2/Scenario2";
 
@@ -21,9 +20,10 @@ const App = (): ReactElement => {
                         <button onClick={ () => setScenario(scenario !== 1 ? 1 : -1) }>Scenario 2</button>
                         <button>Scenario 3</button>
                         <button>Scenario 4</button>
+                        <button>Scenario 5</button>
                     </div>
                     <div className="scenario-display">
-                        { scenario === -1 ? <></> : scenarioArr[0] }
+                        { scenario === -1 ? <></> : scenarioArr[scenario] }
                     </div>
                 </div>
             </main>

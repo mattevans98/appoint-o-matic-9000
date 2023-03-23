@@ -3,8 +3,8 @@ import './scenario1.scss';
 
 const Scenario1 = (): ReactElement => {
     return (
-        <div className="scenario1">
-            <header className="scenario1-header">
+        <div className="Scenario">
+            <header className="Scenario-header">
                 <h1>View Appointments</h1>
             </header>
             <main>

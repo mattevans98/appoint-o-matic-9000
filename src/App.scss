@@ -17,8 +17,21 @@
     padding-bottom: calc(1rem + 2vmin);
 }
 
-.App-content {
+.Scenario {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    color: white;
+    padding-bottom: 2rem;
+}
 
+.Scenario-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-size: calc(10px + 2vmin);
+    border-bottom: 3px solid white;
 }
 
 .scenario-buttons {
@@ -31,7 +44,7 @@
         color: #fff;
         background-color: #556;
         border-radius: 4px;
-        padding: 0.5rem;
+        padding: 0.3rem 0.2rem;
         margin: 0.25rem;
     }
 }

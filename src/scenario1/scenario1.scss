@@ -1,20 +1,3 @@
-.scenario1 {
-    text-align: center;
-    background-color: #282c34;
-    min-height: 100vh;
-    color: white;
-    padding-bottom: 2rem;
-}
-
-.scenario1-header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: start;
-    font-size: calc(10px + 2vmin);
-    border-bottom: 3px solid white;
-}
-
 ul, ol {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
