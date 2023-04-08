@@ -1,4 +1,4 @@
-import React, { ReactElement, useState } from 'react';
+import React, { ReactElement } from 'react';
 import './App.scss';
 import Scenario1 from "./scenario1/Scenario1";
 import Scenario2 from "./scenario2/Scenario2";

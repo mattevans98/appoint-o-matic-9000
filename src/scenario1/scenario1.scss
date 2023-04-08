@@ -71,3 +71,12 @@ ol.day-grid li:nth-child(41),
 ol.day-grid li:nth-child(42) {
     background-color: #aaa;
 }
+
+.date-link {
+    background-color: #55f !important;
+}
+
+a:link, a:visited {
+    color: #000;
+    text-decoration: none;
+}
