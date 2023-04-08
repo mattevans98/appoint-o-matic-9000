@@ -1,7 +1,6 @@
 {
   "name": "appoint-o-matic-9000",
   "version": "0.1.0",
-  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -14,6 +13,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
+    "serve": "^14.2.0",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
   },
@@ -21,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "serve": "serve -s build",
+    "serve:dev": "react-scripts build --openssl-legacy-provider && serve -s build"
   },
   "eslintConfig": {
     "extends": [
@@ -43,5 +45,10 @@
   },
   "devDependencies": {
     "sass": "^1.59.3"
-  }
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
+  "packageManager": "yarn@3.5.0"
 }
