@@ -1,5 +1,6 @@
 import React, { ReactElement } from 'react';
 import './scenario1.scss';
+import { Link } from "react-router-dom";
 
 const Scenario1 = (): ReactElement => {
     return (
@@ -45,7 +46,9 @@ const Scenario1 = (): ReactElement => {
                         <li>2</li>
                         <li>3</li>
                         <li>4</li>
-                        <li>5</li>
+                        <Link to="/scenario2" className="date-link">
+                            <li className="date-link">5</li>
+                        </Link>
                         <li>6</li>
                         <li>7</li>
                         <li>8</li>
