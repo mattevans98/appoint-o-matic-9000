@@ -6,7 +6,7 @@ const Scenario3 = (): ReactElement => {
     return (
         <div className="Scenario">
             <header className="Scenario-header">
-                <h2>Confirm Appointment</h2>
+                <h2>Dr. Solus's Clinic</h2>
             </header>
             <main className="main3">
                 <div className="appt-detail-category">
@@ -18,8 +18,8 @@ const Scenario3 = (): ReactElement => {
                 <div className="appt-detail-info">
                     <p>12:00 PM</p>
                     <p>4/5/23</p>
-                    <p>Dr. Doktor</p>
-                    <p>123 Street Rd, St. Louis, MO</p>
+                    <p>Dr. Mordin Solus</p>
+                    <p>1 Main St, Gozu District, OM</p>
                 </div>
                 <div className="schedule-buttons">
                     <Link to="/scenario4">

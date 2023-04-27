@@ -6,7 +6,7 @@ const Scenario1 = (): ReactElement => {
     return (
         <div className="Scenario">
             <header className="Scenario-header">
-                <h1>View Appointments</h1>
+                <h1>Dr. Solus's Clinic</h1>
             </header>
             <main>
                 <h2>April 2023</h2>
