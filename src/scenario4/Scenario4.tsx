@@ -6,15 +6,15 @@ const Scenario4 = (): ReactElement => {
     return (
         <div className="Scenario">
             <header className="Scenario-header">
-                <h2>View Your Appointments</h2>
+                <h2>Dr. Solus's Clinic</h2>
             </header>
             <main className="main4">
                 <h2>Future appointments:</h2>
                 <div>
                     <p>Date: 4/5/23</p>
                     <p>Time: 12:00 PM</p>
-                    <p>Provider: Dr. Doktor</p>
-                    <p>Location: 123 Street Dr, St. Louis, MO</p>
+                    <p>Provider: Dr. Mordin Solus</p>
+                    <p>Location: 1 Main St, Gozu District, OM</p>
                     <Link to="/scenario5">
                         <button>Cancel</button>
                     </Link>
@@ -23,14 +23,14 @@ const Scenario4 = (): ReactElement => {
                 <div>
                     <p>Date: 2/18/23</p>
                     <p>Time: 3:00 PM</p>
-                    <p>Provider: Dr. DocDoc</p>
-                    <p>Location: 345 Road St, St. Louis, MO</p>
+                    <p>Provider: NP Maelon Helporn</p>
+                    <p>Location: 1 Main St, Gozu District, OM</p>
                 </div>
                 <div>
                     <p>Date: 1/3/23</p>
                     <p>Time: 9:00 AM</p>
-                    <p>Provider: Dr. M.D.</p>
-                    <p>Location: 678 Drive Rd, St. Louis, MO</p>
+                    <p>Provider: Dr. Mordin Solus</p>
+                    <p>Location: 1 Main St, Gozu District, OM</p>
                 </div>
             </main>
         </div>

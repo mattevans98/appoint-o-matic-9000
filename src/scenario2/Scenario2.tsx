@@ -6,7 +6,7 @@ const Scenario2 = (): ReactElement => {
     return (
         <div className="Scenario">
             <header className="Scenario-header">
-                <h1>Schedule Appointment</h1>
+                <h1>Dr. Solus's Clinic</h1>
             </header>
             <main>
                 <h2>April 2023</h2>
@@ -45,7 +45,7 @@ const Scenario2 = (): ReactElement => {
                 <h2>Select a time:</h2>
                 <div className="hour-grid">
                     <div>
-                        <p>9am</p>
+                        <p>9am - NP Maelon Helporn</p>
                     </div>
                     <div className="unavailable">
                         <p>10am</p>
@@ -55,17 +55,17 @@ const Scenario2 = (): ReactElement => {
                     </div>
                     <Link to="/scenario3">
                         <div>
-                            <p>12pm</p>
+                            <p>12pm - Dr. Mordin Solus</p>
                         </div>
                     </Link>
                     <div>
-                        <p>1pm</p>
+                        <p>1pm - NP Maelon Helporn</p>
                     </div>
                     <div className="unavailable">
                         <p>2pm</p>
                     </div>
                     <div>
-                        <p>3pm</p>
+                        <p>3pm - NP Maelon Helporn</p>
                     </div>
                     <div className="unavailable">
                         <p>4pm</p>
